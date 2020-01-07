@@ -12,32 +12,37 @@ int main(){
 	int y = 0;
 	while (y < N)
 	{
-		cout << "Name of student"  << y+1 << " =";
+		cout << "Name of student "  << y+1 << " =";
 	cin >> name[y] ;
-	cout << "Age of student = "  << y+1 << " =";
+	cout << "Age of student "  << y+1 << " =";
 	cin >> age[y] ;
 	y ++;
 	}
 	
 	int key;
-	cout << "--------------------------------------n";
+	cout << "--------------------------------------\n";
 	cout << "Enter an age to search: ";
 	
 	cin >> key;
 	cout << "--------------------------------------\n";
 	y=0;
-	while(y < N)
-	if (key ==age[y]){
+	while(y < N){
+	
+	if (key ==age[y])
 	
 	{
 	
 	cout << name[y]<< "\n";
 	
 	}
-		y ++;
+	
+
+y ++;
 	}
 	
 	cout << "--------------------------------------\n";
 	
 	return 0;
 }
+
+
