@@ -25,7 +25,7 @@ int main(){
 	
 	cin >> key;
 	cout << "--------------------------------------\n";
-	y+0;
+	y=0;
 	while(y < N)
 	if (key ==age[y]){
 	
